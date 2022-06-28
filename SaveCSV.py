@@ -1,0 +1,3 @@
+import package_dataprocess.Nilm_classes
+ReadByHour = package_dataprocess.Nilm_classes.Nilm_dataprocess(path_csv="DATA/vicurve_name.xlsx",path_img="DATA/vicurve32x32/")
+ReadByHour.vicurve_saveas_csv(path_img = "D:\\Data of python\\PycharmProjects\\Nilm_Future_Gadget_Lab\\DATA\\UKData_by_hour\\week2\\vicurve32x32", path_csv = "D:\\Data of python\\PycharmProjects\\Nilm_Future_Gadget_Lab\\DATA\\UKData_by_hour\\week2\\vicurve_name.xlsx" )
